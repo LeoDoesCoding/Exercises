@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Aug8 {
+public class Login {
     public static void main(String[] args) {
         String username = "Admin";
         String password = "Password";
@@ -18,7 +18,7 @@ public class Aug8 {
             //User enters password
             System.out.println("Enter password: ");
             //Checks username and password are correct
-            if (myScanner.nextLine().equals(password) && userFound == true) {
+            if (myScanner.nextLine().equals(password) && userFound) {
                 System.out.println("Welcome...");
                 break;
             } else {
